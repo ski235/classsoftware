@@ -1,20 +1,24 @@
 let login={
-    name="c",
+    name:"c",
    prompt:()=>{let username=prompt('username');
 let a=username},
 }
 let Willy_Renzetti={
-    name="Willy",
-    Surname="Renzetti",
-    id='wr',
+    name:"Willy",
+    Surname:"Renzetti",
+    id:'wr',
     Pass:'Choubidoux2318'
 
 }
 let Corrine={
-    id='co',
-    Pass='Choubidoux2318'
+    id:'co',
+    Pass:'Choubidoux2318'
 
 }
+
 if(login.prompt.username=='wr'){
     window.location.href(w.html)
+}
+if(login.prompt.username=='co'){
+    window.location.href(c.html)
 }
